@@ -1,0 +1,60 @@
+What is the primary purpose of a Python list?,To store multiple items in a single variable.
+How many built-in collection data types exist in Python to store data sets?,There are four built-in collection data types.
+Which specific symbols are used to create a Python list?,Square brackets $[ ]$ are used to create lists.
+List the three main characteristics of items within a Python list.,"List items are ordered, changeable, and allow duplicate values."
+What does the characteristic 'ordered' imply for a Python list?,Items have a defined order that will not change unless specific methods are used.
+Where are new items placed by default when they are added to an existing list?,New items are placed at the end of the list.
+What does the characteristic 'changeable' mean for Python lists?,"It allows for the addition, removal, and modification of items after the list is created."
+Why is it possible for Python lists to contain items with identical values?,"Because list items are indexed, allowing each instance to be distinct."
+What is the index value of the first item in a Python list?,The first item has an index of $[0]$.
+"In a Python list, what index is assigned to the second item?",The second item is assigned an index of $[1]$.
+Which Python function determines the total number of items contained in a list?,The $len()$ function is used to determine list length.
+What variety of data types can be stored as items within a Python list?,"List items can be of any data type, including strings, integers, and booleans."
+Describe the composition of a heterogeneous Python list.,"A heterogeneous list contains items of different data types, such as strings and integers together."
+"From Python's perspective, what is the specific data type of a list object?",A list object is defined as the data type $<class \text{ 'list'}>$.
+Which constructor can be used to generate a new list in Python?,The $list()$ constructor can be used to create a list.
+What is the required syntax for items when using the $list()$ constructor?,"Items must be enclosed in double round brackets, such as $list((\text{'a', 'b'}))$."
+List the four built-in collection types in the Python programming language.,"The four types are List, Tuple, Set, and Dictionary."
+"Which Python collection is defined as being ordered and unchangeable, while allowing duplicate members?","A Tuple is ordered, unchangeable, and allows duplicate members."
+"Identify the Python collection that is unordered, unchangeable, and unindexed.","A Set is unordered, unchangeable, and unindexed."
+How does the changeability of a Set differ from that of a List?,"Set items are unchangeable, but items can still be added or removed from the collection."
+"As of Python version $3.7$, what are the defining characteristics of a Dictionary?","A Dictionary is ordered, changeable, and does not allow duplicate members."
+What was the ordering status of dictionaries in Python version $3.6$ and earlier?,"In version $3.6$ and earlier, dictionaries were unordered."
+What is a significant benefit of choosing the correct collection type for a data set?,It can lead to the retention of meaning and increased efficiency or security.
+"In the list $mylist = [\text{'apple', 'banana', 'cherry'}]$, what is the result of $print(mylist[1])$?",The result is $\text{'banana'}$.
+The principle that list items have a defined sequence that persists is known as being _____.,Ordered
+"If a list has a length of $n$, what is the index of the final item?",The index of the final item is $n - 1$.
+Cloze: Lists are one of _____ built-in data types in Python used to store collections of data.,4
+Cloze: The _____ function is used to determine how many items a list has.,len()
+"Cloze: To create a list using the constructor, one uses the _____ syntax.",list()
+"Cloze: Set items are _____, but you can remove and/or add items whenever you like.",unchangeable
+"Cloze: In Python, _____ are ordered and changeable, but do not allow duplicate members.",Dictionaries
+How do lists and tuples differ in their ability to be modified after creation?,"Lists are changeable, whereas tuples are unchangeable."
+Which two collection types in Python do not allow duplicate members?,Sets and Dictionaries do not allow duplicate members.
+Which collection type is specifically described as being 'unindexed'?,A Set is unindexed.
+"What is the index of 'apple' in the list $thislist = [\text{'apple', 'banana', 'cherry'}] $?",The index of 'apple' is $[0]$.
+"What is the resulting data type when you execute $type([1, 2, 3])$?",$<class \text{ 'list'}>$
+"Term: List. Definition: A collection which is ordered and changeable, allowing duplicate members.","Definition: A collection which is ordered and changeable, allowing duplicate members."
+"Term: Tuple. Definition: A collection which is ordered and unchangeable, allowing duplicate members.","Definition: A collection which is ordered and unchangeable, allowing duplicate members."
+"Term: Set. Definition: A collection which is unordered, unchangeable, and unindexed with no duplicate members.","Definition: A collection which is unordered, unchangeable, and unindexed with no duplicate members."
+Term: Dictionary. Definition: A collection which is ordered and changeable with no duplicate members.,Definition: A collection which is ordered and changeable with no duplicate members.
+True or False: Adding an item to a list always changes the order of existing items.,False; the order of items generally does not change when new items are added to the end.
+What kind of bracket is used in the literal definition of a Python list?,Square brackets are used.
+Why is 'indexing' crucial for the existence of duplicate values in a list?,It allows the computer to distinguish between identical values based on their unique numerical position.
+"How would you find the length of the list $L = [10, 20, 30, 40]$?",By using the function $len(L)$.
+"In the example $list1 = [\text{'abc', 34, True, 40, 'male'}]$, how many different data types are present?","There are three different data types: string, integer, and boolean."
+What distinguishes a List from a Set regarding item order?,"Lists are ordered collections, whereas Sets are unordered."
+What is the index of the third item in a list?,The index of the third item is $[2]$.
+Which collection type was unordered in Python $3.6$ but became ordered in Python $3.7$?,The Dictionary.
+"How does Python perceive a list created with $thislist = list((\text{'apple', 'banana'}))$ compared to one created with square brackets?",Both are perceived as objects of the data type $<class \text{ 'list'}>$.
+Concept: List Duplicates,"Definition: Because lists are indexed, they can store multiple items that share the same value."
+Concept: Ordered Collections,"Definition: Items have a set, unchanging sequence unless modified by specific list methods."
+Concept: Heterogeneous Lists,"Definition: A single list containing a mix of different data types like integers, strings, and booleans."
+Which collection type is both unchangeable and allows duplicate members?,The Tuple.
+Which collection type is changeable but does not allow duplicate members?,The Dictionary.
+What is the index of the fifth item in a Python list?,The index is $[4]$.
+"How do you identify the number of elements in $x = [5, 10, 15]$?","By calling $len(x)$, which would return $3$."
+"Cloze: From Python's perspective, lists are defined as _____ with the data type 'list'.",objects
+Cloze: It is possible to use the _____ constructor when creating a new list.,list()
+What is the default behaviour for item placement when using the $append$ concept mentioned in 'ordered' lists?,New items are placed at the very end of the existing list.
+List the two collection types that are described as 'ordered' in modern Python ($3.7+$).,Lists and Dictionaries (as well as Tuples).
