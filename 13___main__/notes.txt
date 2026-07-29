@@ -1,0 +1,7 @@
+
+Note -
+1. when program execution starts from current file then __name__ value is __main__ in that program
+2. if execution starts somewhere else and it calls current program then __name__ is file name
+3. this was whatever functions we wrote and their testing is done in same file,
+   We want to make sure that test calls from current file to current file functions is done only when execution starts with current file.
+   If execution starts somewhere else and it calls function from this file we are not going to execute test calls.
